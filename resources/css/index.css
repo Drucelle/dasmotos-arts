@@ -1,0 +1,18 @@
+root {
+    --font-family: Helvetica, sans-serif;
+    --font-weight: bold;
+    --color-price: blue;
+}
+
+header{
+    background-image: url(./resources/images/pattern.jpeg);
+    background-color: #c3b091;
+}
+
+h1{
+    font-family: var(--font-family);
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+}
