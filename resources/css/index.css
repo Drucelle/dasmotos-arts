@@ -1,18 +1,46 @@
-root {
+:root {
     --font-family: Helvetica, sans-serif;
     --font-weight: bold;
     --color-price: blue;
+    --color-h2: white;
 }
-
 header{
-    background-image: url(./resources/images/pattern.jpeg);
+    background-image: url(../../resources/images/pattern.jpeg);
     background-color: #c3b091;
+    text-align: center;
 }
-
-h1{
+header h1{
     font-family: var(--font-family);
     font-size: 100px;
-    font-weight: bold;
+    font-weight: var(--font-weight);
     color: khaki;
-    text-align: center;
+}
+h2{
+    font-family: var(--font-family);
+    font-size: 32px;
+    font-weight: var(--font-weight);
+    color: var(--color-h2);
+    padding: 5px;
+}
+.brushes h2{
+    background-color: mediumspringgreen;
+}
+.frames h2{
+    background-color: lightcoral;
+}
+.paint h2{
+    background-color: skyblue;
+}
+h3 {
+    font-family: var(--font-family);
+    font-weight: var(--font-weight);
+}
+.price{
+    color: var(--color-price);
+    font-weight: var(--font-weight);
+}
+p {
+    font-family: var(--font-family);
+    font-size: 16px;
+    padding:0 1px;
 }
